@@ -1,5 +1,5 @@
 {
-  "name": "cesium-test",
+  "name": "hnanqiloutest",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "cesium": "1.119",
-    "vite-plugin-cesium": "^1.2.23"
+    "cesium": "^1.119.0"
   },
   "devDependencies": {
-    "vite": "^5.4.21"
+    "vite": "^5.2.0"
   }
 }
