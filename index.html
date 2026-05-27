@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cesium 三维场景</title>
+
+  <!-- Cesium 官方样式 -->
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.119/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <!-- 你的样式文件 -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    html, body, #cesiumContainer {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
+
+  <!-- Cesium 核心库 -->
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.119/Build/Cesium/Cesium.js"></script>
+</head>
+
+<body>
+  <!-- 只有地球容器 -->
+  <div id="cesiumContainer"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
